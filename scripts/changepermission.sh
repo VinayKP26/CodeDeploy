@@ -1,3 +1,4 @@
 #!/bin/bash 
 #  apache config .
-chown apache:apache -R /var/www/html
+cd /var/www/html/
+chmod -R 777 ./
